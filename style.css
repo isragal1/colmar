@@ -50,7 +50,7 @@ nav {
     color: #52527a;
     font-size: 40px;
     font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 24px;
     width: 100%;
     padding-left: 24px;
@@ -60,7 +60,7 @@ nav {
 .p {
     color: #52527a;
     font-size: 34px;
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
 }
 
@@ -90,7 +90,7 @@ nav {
 }
 .practiceparagraph {
     font-size: 26px;
-    font-color: lightgray;
+    color: lightgray;
     font-family: "Montserrat", "sans-serif";
     width: 96%;
     margin-left: 25px;
@@ -116,7 +116,6 @@ body {
     padding: 32px 24px;
 }
 
-}
 .learnright {
     display: inline;
 }
@@ -151,6 +150,8 @@ body {
 
 .courses {
     background: rgb(214, 208, 208);
+    width: 100%;
+    padding: 0 72px;
    
 }
 
@@ -163,22 +164,128 @@ body {
 
 .row1 {
     display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 32px;
     
 }
 .row2 {
     display: flex;
-}
-
-.r1p1 {
-    margin-left: 72px;
-    margin-right: 32px;
-}
-
-.r1p3 {
-    margin-right: 72px;
-    margin-left: 32px; 
+    width: 100%;
+    justify-content: space-between;
+    padding-bottom: 32px;
 }
 
 .r1p1, .r1p2, .r1p3 {
     height: auto;
+    width: 30%;
+    background: white;
+}
+
+.row1 img { 
+    width: 100%;
+}
+
+.row2 img {
+    width: 100%;
+}
+
+.r2p1, .r2p2, .r2p3 {
+    height: auto;
+    width: 30%;
+    background: white;
+}
+
+.rt {
+    padding: 16px 0 24px 16px;
+
+}
+
+.courseheader {
+    font-size: 35px;
+}
+.COURSES {
+    font-size: 25px;
+    color: gray;
+
+}
+.bottom {
+    font-size: 25px;
+    color: gray;
+  
+}
+
+.thesis {
+    background: white;
+    width: 100%;
+    display: flex;
+    
+}
+
+.thesisvid {
+    width: 60%;
+    padding: 32px 24px 0 24px;
+}
+.thesisbox {
+    display: block;
+}
+.teh1 {
+    text-align: center;
+
+}
+.textleft {
+    padding: 24px 0 32px 24px;
+    width: 60%;
+}
+
+.reimagine {
+    font-size: 32px;
+    padding-bottom: 8px;
+}
+
+.imagine {
+    font-size: 28px;
+    padding-bottom: 32px;
+    color: gray;
+}
+.thesisrt {
+    width: 40%;
+    display: flex;
+    height: 33%;
+}
+.box {
+    display: inline;
+    
+} 
+
+.image { 
+    width: 35%;
+    height: auto;
+    padding: 16px;
+    }
+
+.fisma {
+    background: gray;
+}
+
+.boxtext {
+    display: inline;
+}
+
+footer {
+    display: flex;
+
+}
+
+.footerleft {
+    padding-left: 24px;
+    font-size: 22px;
+    color: gray;
+}
+.footerright {
+  
+    font-size: 22px;
+    color: gray;
+    text-decoration: none;
+    
 }
